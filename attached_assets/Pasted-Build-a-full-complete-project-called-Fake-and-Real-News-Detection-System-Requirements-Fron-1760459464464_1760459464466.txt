@@ -1,0 +1,54 @@
+Build a full complete project called “Fake and Real News Detection System.”
+
+Requirements:
+
+Frontend: React.js (2-page dashboard)
+Backend: Python Flask
+Dataset: Automatically create and use a “Fake and Real News Dataset” (you create the dataset with both fake and real news samples, and use that same dataset for training and testing)
+
+Project Structure:
+Keep both frontend and backend code in one folder structure (client for React, server for Flask)
+Include all code files (React components, Flask app, model training code, and dataset processing)
+
+Frontend (React.js):
+Create a 2-page dashboard UI
+
+Page 1 (Home Page):
+- Display a Fake News Detection themed image/banner
+- Add a short About section explaining the system’s purpose
+- Include a large “EXPLORE” button that navigates to Page 2
+
+Page 2 (Detection Page):
+- Add a textbox/textarea for users to paste news content to be checked
+- Below the textbox, create six clickable feature boxes, each showing details when clicked:
+  1. News Source Credibility Checker – Evaluates source trustworthiness
+  2. Keyword Highlighting – Highlights suspicious or key words
+  3. Prediction Explanation Panel – Explains why content is flagged as fake
+  4. Time-Based Fake News Trend Analysis – Tracks spread of fake news over time
+  5. Propagation Burst Visualizer – Shows spikes in how often news is shared
+  6. Emotion–Headline Mismatch Highlighter – Detects mismatch between headline and content
+- Each box should show its corresponding content dynamically when clicked
+- Make the UI modern, responsive, and minimalistic using React Router for navigation
+
+Backend (Python Flask):
+- Create Flask routes to:
+  1. Load and preprocess the custom dataset you create
+  2. Train a Machine Learning model (use Logistic Regression or Naive Bayes with TF-IDF)
+  3. Provide a /predict API endpoint that takes input text and returns whether it’s “FAKE” or “REAL”
+- Include code for saving and loading the trained model using pickle or joblib
+
+Integration:
+- Connect the React frontend with Flask backend
+- When the user pastes content in the textbox and clicks a “Check News” button, send it to the Flask backend for prediction and display the result dynamically
+
+Final Deliverables:
+The full working project folder should contain:
+- React frontend (client folder)
+- Flask backend (server folder)
+- Trained model and dataset files
+- Clear instructions in a README.md file on how to run both frontend and backend together
+
+Make sure:
+- The backend and frontend are properly connected
+- The dataset is created automatically 
+- The entire project runs smoothly inside Replit without any error when I click “Run”
