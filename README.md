@@ -46,7 +46,6 @@ A full-stack machine learning application that detects fake news using Natural L
 
 - Node.js (v20+)
 - Python 3.11+
-- All dependencies are pre-installed in Replit
 
 ### Running the Application
 
