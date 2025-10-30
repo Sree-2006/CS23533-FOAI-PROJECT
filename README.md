@@ -181,10 +181,4 @@ Check backend health status.
 - Advanced visualization dashboard
 - Multi-language support
 
-## 📄 License
 
-This project is created for educational purposes.
-
----
-
-**Built with ❤️ using React.js and Python Flask**
